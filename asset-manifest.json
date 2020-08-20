@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Realstate/static/css/main.96b921c3.chunk.css",
+    "main.js": "/Realstate/static/js/main.108057e2.chunk.js",
+    "main.js.map": "/Realstate/static/js/main.108057e2.chunk.js.map",
+    "runtime-main.js": "/Realstate/static/js/runtime-main.94ebe41b.js",
+    "runtime-main.js.map": "/Realstate/static/js/runtime-main.94ebe41b.js.map",
+    "static/js/2.04a7a330.chunk.js": "/Realstate/static/js/2.04a7a330.chunk.js",
+    "static/js/2.04a7a330.chunk.js.map": "/Realstate/static/js/2.04a7a330.chunk.js.map",
+    "index.html": "/Realstate/index.html",
+    "precache-manifest.6475f50e1cd140106fb67ccabb325df9.js": "/Realstate/precache-manifest.6475f50e1cd140106fb67ccabb325df9.js",
+    "service-worker.js": "/Realstate/service-worker.js",
+    "static/css/main.96b921c3.chunk.css.map": "/Realstate/static/css/main.96b921c3.chunk.css.map",
+    "static/js/2.04a7a330.chunk.js.LICENSE.txt": "/Realstate/static/js/2.04a7a330.chunk.js.LICENSE.txt",
+    "static/media/1421138632_frozen-480x800.jpg": "/Realstate/static/media/1421138632_frozen-480x800.306b00fd.jpg",
+    "static/media/1_9EBHIOzhE1XfMYoKz1JcsQ.gif": "/Realstate/static/media/1_9EBHIOzhE1XfMYoKz1JcsQ.26ef8bb4.gif",
+    "static/media/left-arrow.svg": "/Realstate/static/media/left-arrow.34a4f31c.svg",
+    "static/media/right-arrow.svg": "/Realstate/static/media/right-arrow.5e5b72cc.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.94ebe41b.js",
+    "static/js/2.04a7a330.chunk.js",
+    "static/css/main.96b921c3.chunk.css",
+    "static/js/main.108057e2.chunk.js"
+  ]
+}
