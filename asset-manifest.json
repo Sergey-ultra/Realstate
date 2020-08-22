@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Realstate/static/css/main.57db7078.chunk.css",
-    "main.js": "/Realstate/static/js/main.73ddae39.chunk.js",
-    "main.js.map": "/Realstate/static/js/main.73ddae39.chunk.js.map",
+    "main.js": "/Realstate/static/js/main.e97c467e.chunk.js",
+    "main.js.map": "/Realstate/static/js/main.e97c467e.chunk.js.map",
     "runtime-main.js": "/Realstate/static/js/runtime-main.94ebe41b.js",
     "runtime-main.js.map": "/Realstate/static/js/runtime-main.94ebe41b.js.map",
     "static/js/2.0ebddf85.chunk.js": "/Realstate/static/js/2.0ebddf85.chunk.js",
     "static/js/2.0ebddf85.chunk.js.map": "/Realstate/static/js/2.0ebddf85.chunk.js.map",
     "index.html": "/Realstate/index.html",
-    "precache-manifest.d99faa33fac30b4a5679639d5f49bfb9.js": "/Realstate/precache-manifest.d99faa33fac30b4a5679639d5f49bfb9.js",
+    "precache-manifest.412e74ab31909b9b7d82465990a4fac3.js": "/Realstate/precache-manifest.412e74ab31909b9b7d82465990a4fac3.js",
     "service-worker.js": "/Realstate/service-worker.js",
     "static/css/main.57db7078.chunk.css.map": "/Realstate/static/css/main.57db7078.chunk.css.map",
     "static/js/2.0ebddf85.chunk.js.LICENSE.txt": "/Realstate/static/js/2.0ebddf85.chunk.js.LICENSE.txt",
@@ -22,6 +22,6 @@
     "static/js/runtime-main.94ebe41b.js",
     "static/js/2.0ebddf85.chunk.js",
     "static/css/main.57db7078.chunk.css",
-    "static/js/main.73ddae39.chunk.js"
+    "static/js/main.e97c467e.chunk.js"
   ]
 }
