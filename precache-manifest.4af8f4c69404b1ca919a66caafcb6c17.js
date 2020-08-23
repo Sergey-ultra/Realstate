@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "51dd0775c302e5a84f23b6620aa7d7aa",
+    "revision": "9338614d7c590d30e856a01eacb3918a",
     "url": "/Realstate/index.html"
   },
   {
-    "revision": "47b580de784a20b92596",
-    "url": "/Realstate/static/css/main.52469709.chunk.css"
+    "revision": "211c09a06bf87ca543ac",
+    "url": "/Realstate/static/css/main.b9960d2e.chunk.css"
   },
   {
     "revision": "bff09b586da063726f11",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Realstate/static/js/2.f22756b9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "47b580de784a20b92596",
+    "revision": "211c09a06bf87ca543ac",
     "url": "/Realstate/static/js/main.e4bdd08c.chunk.js"
   },
   {
