@@ -1,0 +1,26 @@
+.post {
+    padding: 20px 30px;
+
+    &__title{
+        font-size:26px;
+        margin:0 0 20px 0;
+        @media(max-width: 900px){
+            font-size:20px;
+        }
+    }
+}
+.item {
+    display:flex;
+    font-size: 16px;
+    color: black;
+    padding: 10px 0;
+}
+
+.item img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+}
+.postElement{
+    padding-left:20px;
+}

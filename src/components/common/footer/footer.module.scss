@@ -1,0 +1,25 @@
+.footer{
+    color: #666666;
+    height:80px;
+    flex: 0 0 auto;
+    text-align: justify;
+    &__container{
+        max-width:1330px;
+        padding: 0 15px;
+        margin:0 auto;
+    }
+    &__item{
+        padding: 10px 0 24px;
+        p {
+            padding-top:10px;
+        }
+
+    }
+    &__menu{
+        border: 1px solid #d8d8d8;
+        border-width: 1px 0;
+        padding: 23px 0 15px;
+    }
+
+}
+

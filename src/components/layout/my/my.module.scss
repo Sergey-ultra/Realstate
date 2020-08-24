@@ -1,0 +1,96 @@
+.container{
+    max-width:1330px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.my{
+    margin: 50px 0 0 0;
+   &__wrapper{
+       display:flex;
+       flex-wrap:wrap;
+       justify-content: space-between;
+   }
+    &__side{
+        flex-basis:calc(100%/4);
+        padding: 20px 10px;
+        display: flex;
+        overflow: hidden;
+        flex-direction: column;
+        width: 300px;
+        flex-shrink: 0;
+        border-right: 1px solid #e4e4e4;
+        @media(max-width:800px){
+            flex-basis:100%;
+        }
+    }
+
+    &__main{
+        flex-basis:calc(100% *3/4);
+        @media(max-width:800px){
+            flex-basis:100%;
+        }
+
+     }
+}
+.profile{
+    margin-bottom: 8px;
+    padding: 0 10px 20px;
+    border-bottom: 1px solid #e4e4e4;
+    &__wrapper{
+        display: flex;
+    }
+    &__avatar{
+        margin-right: 15px;
+        align-items: center;
+        justify-content: center;
+        flex: 0 0 56px;
+        overflow: hidden;
+        height: 56px;
+        user-select: none;
+        background-color: #e4e4e4;
+        border-radius: 50%;
+    }
+    &__summary{
+        flex: 1 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    &__id{
+        margin-top: 1px;
+        font-size: 12px;
+        line-height: 1.5;
+        color: #7a7a7a;
+    }
+}
+.list{
+    margin: 0;
+    padding: 0 0 20px;
+    list-style: none;
+    border-bottom: 1px solid #e4e4e4;
+    &__item{
+        position: relative;
+        margin-bottom: 2px;
+        border-radius: 3px;
+        &:hover{
+            background-color: rgba(18,18,18,.05);
+        }
+    }
+    &__link{
+        padding: 12px 10px 10px 40px;
+        display: block;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 1.29;
+        text-decoration: none;
+        color: #121212;
+    }
+    &__icon{
+        position: absolute;
+        left: 10px;
+        fill: none;
+        stroke: #475258;
+        color: #475258;
+        z-index:20;
+    }
+}

@@ -1,0 +1,466 @@
+.modal__created-blur {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	opacity: .7;
+	left: 0;
+	background-color: #383838;
+	z-index: 999;
+	overflow:hidden;
+}
+
+.modal__created-modal {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	max-width: 900px;
+	height: auto;
+	background-color: #ffffff;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	animation: fadeIn .3s ease-in-out;
+	z-index: 9999;
+	
+	.created__modal-header {
+		width: 100%;
+		height: 80px;
+		margin: 20px 0;
+		padding: 0px 40px 0px 40px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.created__modal-body {
+		width: 100%;
+		height: 100%;
+		padding: 0px 40px 0px 40px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		border-top: 1px solid #e4e4e4;
+		border-bottom: 1px solid #e4e4e4;
+
+		.body__form {
+			width: 100%;
+			margin: 5px 0;
+			display: flex;
+
+			.modal__body-content {
+				width: 100%;
+				display: grid;
+				grid-template-columns: 1fr 1fr 1fr;
+				padding: 0;
+
+
+				.left_input{
+					grid-column: 1 / 2;
+					padding-right: 5px;
+
+					label {
+						padding-left: 10px;
+						font-size: .8rem;
+						color: #828282;
+
+						span {
+							margin-left: 2px;
+							color: #ff5151;
+						}
+					}
+
+					.input__text {
+						width: 100%;
+						height: 28px;
+						border: 1px solid #c9c8ca;
+						border-radius: 4px;
+						color: black;
+						//margin: 5px 5px;
+						padding: 5px 5px;
+
+
+
+
+						&:focus {
+							border-color: black;
+							outline: none;
+						}
+					}
+				}
+
+				.right_input{
+					grid-column: 3 / 4;
+					padding-left:5px;
+
+					label {
+						padding-left: 10px;
+						font-size: .8rem;
+						color: #828282;
+
+						span {
+							margin-left: 2px;
+							color: #ff5151;
+						}
+					}
+
+					.input__text {
+						width: 100%;
+						height: 28px;
+						border: 1px solid #c9c8ca;
+						border-radius: 4px;
+						color: black;
+						//margin: 5px 5px;
+						padding: 5px 5px;
+
+
+						&:focus {
+							border-color: black;
+							outline: none;
+						}
+					}
+				}
+
+				.centr_input{
+					grid-column: 2 / 3;
+					padding-left:5px;
+					padding-right:5px;
+
+
+					label {
+						padding-left: 10px;
+						font-size: .8rem;
+						color: #828282;
+
+						span {
+							margin-left: 2px;
+							color: #ff5151;
+						}
+					}
+
+					.input__text {
+						width: 100%;
+						height: 28px;
+						border: 1px solid #c9c8ca;
+						border-radius: 4px;
+						color: black;
+						//margin: 5px 5px;
+						padding: 5px 5px;
+
+
+
+
+						&:focus {
+							border-color: black;
+							outline: none;
+						}
+					}
+				}
+
+				.content {
+					padding: 0px;
+					grid-column: 1/ 4;
+
+
+
+					.user__list-bar {
+						display: inline-block;
+						padding-left: 10px;
+						margin: 5px 0;
+						display: grid;
+						grid-gap: 5px;
+						grid-template-columns: repeat(3, 50px 1fr) 50px;
+
+						.active__user {
+							border: 3px solid #3068ff;
+						}
+
+						img {
+							width: 50px;
+							object-fit: cover;
+							height: 50px;
+							border-radius: 50%;
+
+							&:hover {
+								cursor: pointer;
+							}
+						}
+					}
+
+					select {
+						width: 100%;
+						height: 50px;
+						border: none;
+						color: #585858;
+						font-weight: 600;
+						margin: 5px 0px;
+						text-transform: uppercase;
+						padding-left: 10px;
+					}
+
+					label {
+						padding-left: 10px;
+						font-size: .8rem;
+						color: #828282;
+
+						span {
+							margin-left: 2px;
+							color: #ff5151;
+						}
+					}
+					.input__textarea {
+						width: 100%;
+						height: 80px;
+						border: 1px solid #c9c8ca;
+						border-radius: 4px;
+						color: black;
+						margin: 5px 0px;
+						padding-left: 10px;
+
+						&:focus {
+							border-color:black;
+							outline: none;
+						}
+					}
+
+					.input__text {
+						width: 100%;
+						height: 28px;
+						border: 1px solid #c9c8ca;
+						border-radius: 4px;
+						color: black;
+						margin: 5px 0px;
+						padding-left: 10px;
+
+
+						&:focus {
+							border-color:black;
+							outline: none;
+						}
+					}
+				}
+
+				.content__body-photo-description {
+					font-size: .8rem;
+					color: #828282;
+					padding:10px;
+					grid-column: 1/ 4;
+				}
+				.content__body-loader {
+					grid-column: 1/ 4;
+					display: flex;
+					height:100%;
+					//height: 140px;
+					//padding: 13px 13px;
+					border: 1px dashed #d9d9d9;
+					border-radius: 4px;
+
+					.load__field {
+						position: relative;
+						width: 157px;
+						height: 113px;
+						margin: 8px;
+						border: 1px solid #c9c8ca;
+						border-radius: 4px;
+						text-align: center;
+						//background: #fafafa;
+
+						cursor: pointer;
+						-webkit-transition: border-color 0.3s;
+						transition: border-color 0.3s;
+					}
+
+					.img__prew {
+						width: 157px;
+						height: 113px;
+						margin: 8px;
+						display: flex;
+						justify-content: center;
+						align-items: center;
+						background-color: #f1f1f1;
+
+						img {
+							width: 157px;
+							height: 113px;
+							object-fit: cover;
+						}
+					}
+
+					p {
+						font-size: .8rem;
+						color: #ababab;
+						position: absolute;
+						top: 60px;
+						left: 50%;
+						transform: translate(-50%);
+					}
+
+					svg {
+						font-size: 2rem;
+						color: #598cff;
+						position: absolute;
+						top: 20px;
+						left: 50%;
+						transform: translate(-50%);
+					}
+
+					input[type="file"]::-webkit-file-upload-button {
+						visibility: hidden;
+					}
+
+					input[type="file"] {
+						width: 100%;
+						height: 100%;
+						opacity: 0;
+					}
+
+					input[type="file"]:hover {
+						cursor: pointer;
+					}
+				}
+			}
+
+			.modal__body-content-right {
+				width: 100%;
+				display: flex;
+				flex-direction: column;
+				padding: 10px 0;
+
+				
+				.react-datepicker-wrapper {
+					display: inline;
+				}
+
+				.react-datepicker {
+					font-family: Roboto;
+					font-size: 0.8rem;
+					background-color: #fff;
+					color: #000;
+					border: 1px solid #d2d2d2;
+					display: inline-block;
+					position: relative;
+				}
+
+				.react-datepicker__day--selected, .react-datepicker__day--in-selecting-range, .react-datepicker__day--in-range, .react-datepicker__month-text--selected, .react-datepicker__month-text--in-selecting-range, .react-datepicker__month-text--in-range, .react-datepicker__quarter-text--selected, .react-datepicker__quarter-text--in-selecting-range, .react-datepicker__quarter-text--in-range {
+					border-radius: 0.3rem;
+					background-color: #3573ff;
+					color: #fff;
+				}
+
+				.content__right-body {
+					padding: 10px;
+					border: 1px solid #e4e4e4;
+
+					.date__picker-input {
+						width: 100%;
+						height: 50px;
+						border: none;
+						color: #585858;
+						font-weight: 600;
+						margin: 5px 0px;
+						text-transform: uppercase;
+						padding-left: 10px;
+					}
+
+					select {
+						width: 100%;
+						height: 50px;
+						border: none;
+						color: #585858;
+						font-weight: 600;
+						margin: 5px 0px;
+						text-transform: uppercase;
+						padding-left: 10px;
+					}
+
+					label {
+						padding-left: 10px;
+						font-size: .8rem;
+						color: #828282;
+
+						span {
+							margin-left: 2px;
+							color: #ff5151;
+						}
+					}
+
+					input:disabled {
+						background: #f7f7f7;
+						outline: 1px dashed #b5b5b5
+					}
+
+					.input__text {
+						width: 100%;
+						height: 50px;
+						border: none;
+						color: #585858;
+						font-weight: 600;
+						margin: 5px 0px;
+						text-transform: uppercase;
+						padding-left: 10px;
+
+						&:focus {
+							outline: none;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.created__modal-bottom {
+		width: 100%;
+		height: 80px;
+		margin: 20px 0;
+		padding: 0px 40px 0px 40px;
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+
+		.close__button {
+			background-color: transparent;
+			width: 100px;
+			height: 40px;
+			color: #1a61ff;
+			border: 1px solid #1a61ff;
+			outline: none;
+			font-weight: 500;
+			margin-right: 20px;
+			transition: .3s all;
+
+			&:hover {
+				cursor: pointer;
+				background-color: #1a61ff;
+				color: #fff
+			}
+		}
+
+		.success__button {
+			background-color: #30c102;
+			width: 100px;
+			height: 40px;
+			color: #fff;
+			border: none;
+			outline: none;
+			font-weight: 500;
+			transition: .3s all;
+
+			&:hover {
+				cursor: pointer;
+				background-color: #228204;
+			}
+		}
+
+		.disabled__button {
+			background-color: #30c10278;
+			width: 100px;
+			height: 40px;
+			color: #fff;
+			border: none;
+			outline: none;
+			font-weight: 500;
+			transition: .3s all;
+		}
+	}
+}
